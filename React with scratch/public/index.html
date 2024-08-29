@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <script type="module">
+        import {Hello} from "../library/index.js";
+        document.querySelector("p").innerHTML = Hello();
+    </script>
 </head>
 <body>
     <h2>Index Page</h2>
+    <p></p>
     <a href="home.html">Home</a>
 </body>
 </html>
