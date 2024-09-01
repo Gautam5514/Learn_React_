@@ -1,0 +1,96 @@
+<!-- <script>
+    var name = "TV"
+    class product 
+    {
+        property = "data";
+        Methode () { 
+            var x = 10;
+            function f1() { 
+
+            }
+        }
+    }
+</script> -->
+
+
+<!-- <script>
+    var username = prompt("Enter Name");
+    var designation = prompt("Enter your designation");
+    var productName = prompt("Enter the product Name");
+    class product
+    {
+        _productName;
+        // Getter is reading the value
+        get productName() {
+            return this._productName;
+        }
+        // Setter is taking a new value and assigning
+        set ProductName(newName) {
+            if(designation == "admin") {
+                this._productName = newName;
+            } else {
+                document.write(`Unauthorized : Hello ${username} you are not eligible to acces that`);
+
+            }
+        }
+    }
+    let obj = new product();
+    obj.ProductName = productName; //setter
+    if(obj.ProductName) {
+        document.write("Product Name : " + obj.ProductName); // getter
+    }
+</script> -->
+
+
+
+
+
+
+
+<!--  Accessors -->
+<!-- <script>
+    class Register 
+    {
+        Name = "Samsung TV";
+        Rating = {
+            Rate : {
+                Count: 3000,
+                Value: 4.5
+            }
+        }
+        get RateValue() {
+            return this.Rating.Rate.Value;
+        }
+    }
+
+    let obj = new Register();
+    document.write("Rate Value " + obj.RateValue); 
+</script> -->
+
+
+
+
+<script>
+    class BaseClass
+    {
+        constructor(msg) {
+            document.write("Base Class Constructor" + msg + "<br/>");
+        }
+    }
+    class DeriveClass extends BaseClass
+    {
+        constructor() {
+            super("Hello");
+            document.write("Derived Class constructor");
+        }
+    }
+    let obj = new DeriveClass();
+</script>
+
+
+
+
+
+
+
+

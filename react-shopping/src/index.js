@@ -7,13 +7,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import { NetflixRegisterComponents } from './components/NetflixRegister';
 import NetflixIndexComponents from './components/NetflixIndexComponents';
+import RegisterComponent from './components/registerComponents';
 // import { NetflixRankComponent } from './components/NetflixRank';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NetflixIndexComponents />
-
+    {/* <NetflixIndexComponents /> */}
+    <RegisterComponent/>
   </React.StrictMode>
 );
 
