@@ -5,16 +5,18 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DataBindingComponents from './components/DataBindingComponents';
 // import { NetflixRegisterComponents } from './components/NetflixRegister';
-import NetflixIndexComponents from './components/NetflixIndexComponents';
-import RegisterComponent from './components/registerComponents';
+// import NetflixIndexComponents from './components/NetflixIndexComponents';
+//import RegisterComponent from './components/registerComponents';
 // import { NetflixRankComponent } from './components/NetflixRank';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <NetflixIndexComponents /> */}
-    <RegisterComponent/>
+      {/* <RegisterComponent/> */}
+    <DataBindingComponents/>
   </React.StrictMode>
 );
 

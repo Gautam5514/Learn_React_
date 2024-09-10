@@ -1,4 +1,4 @@
-<!-- <script>
+ <!-- <script>
     var name = "TV"
     class product 
     {
@@ -10,10 +10,9 @@
             }
         }
     }
-</script> -->
+</script> 
 
-
-<!-- <script>
+<script>
     var username = prompt("Enter Name");
     var designation = prompt("Enter your designation");
     var productName = prompt("Enter the product Name");
@@ -39,7 +38,7 @@
     if(obj.ProductName) {
         document.write("Product Name : " + obj.ProductName); // getter
     }
-</script> -->
+</script> 
 
 
 
@@ -47,8 +46,8 @@
 
 
 
-<!--  Accessors -->
-<!-- <script>
+    Accessors 
+<script>
     class Register 
     {
         Name = "Samsung TV";
@@ -65,8 +64,7 @@
 
     let obj = new Register();
     document.write("Rate Value " + obj.RateValue); 
-</script> -->
-
+</script> 
 
 
 
@@ -87,10 +85,42 @@
     let obj = new DeriveClass();
 </script>
 
+<head>
+    <script>
+        var categories = ["All", "Electronics", "Footwear"];
+        function bodyload() {
+            for(var item of categories){
+                var li = document.createElement("li");
+                li.innerHTML = item;
+                document.querySelector("ol").appendChild(li);
+            }
+        }
+    </script>
+</head>
+<body onload="bodyload()">
+    <ol>
+
+    </ol>
+</body>  -->
 
 
+<head>
+    <script src="./node_modules/jquery/dist/jquery.js"> </script>
+<script>
+    var categories = ["All", "Electronic", "Footwear"];
+    $(function() {
+        $.each(categories, function(key, value) {
+            $(`<li>${value}</li>`).appendTo("ol");
+        })
+    })
+</script>
 
-
+</head>
+<body>
+    <ol>
+        
+    </ol>
+</body>
 
 
 
