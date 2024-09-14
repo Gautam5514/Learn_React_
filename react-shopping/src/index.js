@@ -6,6 +6,7 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import DataBindingComponents from './components/DataBindingComponents';
+import ShoppingComponents from './components/ShopingComponents';
 // import { NetflixRegisterComponents } from './components/NetflixRegister';
 // import NetflixIndexComponents from './components/NetflixIndexComponents';
 //import RegisterComponent from './components/registerComponents';
@@ -16,7 +17,8 @@ root.render(
   <React.StrictMode>
     {/* <NetflixIndexComponents /> */}
       {/* <RegisterComponent/> */}
-    <DataBindingComponents/>
+    {/* <DataBindingComponents/> */}
+    <ShoppingComponents/>
   </React.StrictMode>
 );
 
