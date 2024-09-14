@@ -5,9 +5,9 @@ export default function DataBindingComponents() {
     const [mars, setMars] = useState({ photos: [] });  // Initialize mars as an object with an empty photos array
 
     useEffect(() => {
-        fetch("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY")
-            .then(response => response.json())
-            .then(data => {
+        fetch("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY") // this is the api of NASA 
+            .then(response => response.json()) // to convert all the format in the json
+            .then(data => { // then travese on the api of data
                 setMars(data);  // Set the fetched data
             });
     }, []);
@@ -66,6 +66,13 @@ export default function DataBindingComponents() {
 //         }
 //     </tbody>
 // </table> */}
+
+
+
+
+
+
+
 
 
  // use of useState
