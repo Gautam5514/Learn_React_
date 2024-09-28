@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import DataBindingComponents from './components/DataBindingComponents';
+// import DataBindingComponents from './components/DataBindingComponents';
 import ShoppingComponents from './components/ShopingComponents';
+import TwoWayClassDemo from './components/TwoWayClassDemo';
+// import TwoWayBinding from './components/TwoWayBinding';
+// import EventBindingComponents from './components/EventBindingComponents';
 // import { NetflixRegisterComponents } from './components/NetflixRegister';
 // import NetflixIndexComponents from './components/NetflixIndexComponents';
 //import RegisterComponent from './components/registerComponents';
@@ -18,7 +21,10 @@ root.render(
     {/* <NetflixIndexComponents /> */}
       {/* <RegisterComponent/> */}
     {/* <DataBindingComponents/> */}
-    <ShoppingComponents/>
+    {/* <ShoppingComponents/> */}
+    {/* <DataBindingComponents /> */}
+    {/* < TwoWayBinding /> */}
+    < TwoWayClassDemo />
   </React.StrictMode>
 );
 
