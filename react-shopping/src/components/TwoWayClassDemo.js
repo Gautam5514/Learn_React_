@@ -7,7 +7,16 @@ export default class TwoWayClassDemo extends React.Component
         this.state = {
             UserName: 'gautam'
         }
+        // this is for the classs components
+        // this.handleUserChange = this.handleUserChange.bind(this);
     }
+
+    // if we use the class component then we use this
+    // handleUserChange(e) {
+    //     this.setState({
+    //         UserName: e.target.value
+    //     })
+    // }
 
     handleUserChange(e) {
         console.log(e.target.value)
@@ -18,7 +27,9 @@ export default class TwoWayClassDemo extends React.Component
         return (
             <div className="container-fluid">
                 <h2>User Detaileds</h2>
-                <input type="text" onChange={this.handleUserChange}/>
+                <input type="text" onChange={this.handleUserChange }/>
+                {/* for class components */}
+                {/* <input type="text" onChange={this.handleUserChange.bind(this) }/> */}
                 <br />
                 <p>Hello ! {this.state.UserName}</p>
             </div>
@@ -28,7 +39,7 @@ export default class TwoWayClassDemo extends React.Component
 
 
 
-
+// => all the comment out are the class components
 
 
 

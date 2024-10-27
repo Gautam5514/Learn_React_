@@ -6,7 +6,7 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import DataBindingComponents from './components/DataBindingComponents';
-import ShoppingComponents from './components/ShopingComponents';
+// import ShoppingComponents from './components/ShopingComponents';
 import TwoWayClassDemo from './components/TwoWayClassDemo';
 // import TwoWayBinding from './components/TwoWayBinding';
 // import EventBindingComponents from './components/EventBindingComponents';
